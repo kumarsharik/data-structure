@@ -1,0 +1,24 @@
+package com;
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+public class UpLow {
+	/*package whatever //do not write package name here */
+
+	    public static String changeLetter(String str){
+	        String strnew;
+	        if(Character.isLowerCase(str.charAt(0))){
+	        strnew=str.toLowerCase();
+	        }
+	        else{
+	          strnew=  str.toUpperCase();
+	        }
+	        return strnew;
+	    }
+		public static void main (String[] args) {
+			//code
+			String s="CaAAAkfg ;dgdfkjsgk:jdgkshgfkdskfskjdhfksdfk sd sdfhdsjfgskgfjksdgfkjsdfjgdshjfgsdjhgfkjsdgfkjdgskjfgsdkjfgskjdgfkjsdgfkjsdgfkjgdskjfgdskjfgkjsdgfkjdsg";
+			System.out.print(changeLetter(s));
+		}
+	}
+
